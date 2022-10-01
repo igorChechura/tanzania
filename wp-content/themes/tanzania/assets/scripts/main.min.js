@@ -22,6 +22,32 @@ __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 
 
+/***/ }),
+
+/***/ "./sass/blocks/hero.scss":
+/*!*******************************!*\
+  !*** ./sass/blocks/hero.scss ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
+/***/ "./sass/blocks/accordion.scss":
+/*!************************************!*\
+  !*** ./sass/blocks/accordion.scss ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
 /***/ })
 
 /******/ 	});
@@ -111,6 +137,8 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
 /******/ 			"/assets/scripts/main": 0,
+/******/ 			"assets/styles/blocks/accordion": 0,
+/******/ 			"assets/styles/blocks/hero": 0,
 /******/ 			"assets/styles/main": 0
 /******/ 		};
 /******/ 		
@@ -161,8 +189,10 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["assets/styles/main"], () => (__webpack_require__("./js/main.js")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["assets/styles/main"], () => (__webpack_require__("./sass/main.scss")))
+/******/ 	__webpack_require__.O(undefined, ["assets/styles/blocks/accordion","assets/styles/blocks/hero","assets/styles/main"], () => (__webpack_require__("./js/main.js")))
+/******/ 	__webpack_require__.O(undefined, ["assets/styles/blocks/accordion","assets/styles/blocks/hero","assets/styles/main"], () => (__webpack_require__("./sass/main.scss")))
+/******/ 	__webpack_require__.O(undefined, ["assets/styles/blocks/accordion","assets/styles/blocks/hero","assets/styles/main"], () => (__webpack_require__("./sass/blocks/hero.scss")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["assets/styles/blocks/accordion","assets/styles/blocks/hero","assets/styles/main"], () => (__webpack_require__("./sass/blocks/accordion.scss")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
