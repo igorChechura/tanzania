@@ -27,14 +27,22 @@
                 </a>
             </div>
             <?php endif; ?>
-            <nav class="header__nav">
-                <?php 
-                draw_menu_single_level('header_menu', 'header__nav-list', 'header__nav-item', 'header__nav-link');
-                ?>
-            </nav>
-            <?php if(get_field('header_button_text', 'option') && get_field('header_button_link', 'option')): ?>
-            <a href="<?php the_field('header_button_link', 'option'); ?>" class="button"><?php the_field('header_button_text', 'option'); ?></a>
-            <?php endif; ?>
+            <div class="header__nav-overlay">
+                <div class="header__nav-wrap">
+                    <button class="header__nav-close"></button>
+                    <nav class="header__nav">
+                        <?php 
+                        draw_menu_single_level('header_menu', 'header__nav-list', 'header__nav-item', 'header__nav-link');
+                        ?>
+                    </nav>
+                    <?php if(get_field('header_button_text', 'option') && get_field('header_button_link', 'option')): ?>
+                    <a href="<?php the_field('header_button_link', 'option'); ?>" class="header__button button"><?php the_field('header_button_text', 'option'); ?></a>
+                    <?php endif; ?>
+                </div>
             </div>
+            <button class="header__menu-button menu-button">
+                <span class="menu-button__inner"></span>
+            </button>
+        </div>
     </div>
 </header>

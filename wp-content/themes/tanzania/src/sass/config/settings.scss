@@ -40,3 +40,9 @@ img {
         padding: 0 15px;
     }
 }
+
+.mob-menu-active {
+    @include md {      
+       overflow: hidden;
+    }
+ }
