@@ -1,20 +1,20 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./js/main.js":
-/*!********************!*\
-  !*** ./js/main.js ***!
-  \********************/
+/***/ "./src/js/main.js":
+/*!************************!*\
+  !*** ./src/js/main.js ***!
+  \************************/
 /***/ (() => {
 
 
 
 /***/ }),
 
-/***/ "./sass/main.scss":
-/*!************************!*\
-  !*** ./sass/main.scss ***!
-  \************************/
+/***/ "./src/sass/main.scss":
+/*!****************************!*\
+  !*** ./src/sass/main.scss ***!
+  \****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -24,10 +24,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./sass/blocks/hero.scss":
-/*!*******************************!*\
-  !*** ./sass/blocks/hero.scss ***!
-  \*******************************/
+/***/ "./src/sass/blocks/hero.scss":
+/*!***********************************!*\
+  !*** ./src/sass/blocks/hero.scss ***!
+  \***********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -37,10 +37,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./sass/blocks/accordion.scss":
-/*!************************************!*\
-  !*** ./sass/blocks/accordion.scss ***!
-  \************************************/
+/***/ "./src/sass/blocks/accordion.scss":
+/*!****************************************!*\
+  !*** ./src/sass/blocks/accordion.scss ***!
+  \****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -189,10 +189,10 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["assets/styles/blocks/accordion","assets/styles/blocks/hero","assets/styles/main"], () => (__webpack_require__("./js/main.js")))
-/******/ 	__webpack_require__.O(undefined, ["assets/styles/blocks/accordion","assets/styles/blocks/hero","assets/styles/main"], () => (__webpack_require__("./sass/main.scss")))
-/******/ 	__webpack_require__.O(undefined, ["assets/styles/blocks/accordion","assets/styles/blocks/hero","assets/styles/main"], () => (__webpack_require__("./sass/blocks/hero.scss")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["assets/styles/blocks/accordion","assets/styles/blocks/hero","assets/styles/main"], () => (__webpack_require__("./sass/blocks/accordion.scss")))
+/******/ 	__webpack_require__.O(undefined, ["assets/styles/blocks/accordion","assets/styles/blocks/hero","assets/styles/main"], () => (__webpack_require__("./src/js/main.js")))
+/******/ 	__webpack_require__.O(undefined, ["assets/styles/blocks/accordion","assets/styles/blocks/hero","assets/styles/main"], () => (__webpack_require__("./src/sass/main.scss")))
+/******/ 	__webpack_require__.O(undefined, ["assets/styles/blocks/accordion","assets/styles/blocks/hero","assets/styles/main"], () => (__webpack_require__("./src/sass/blocks/hero.scss")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["assets/styles/blocks/accordion","assets/styles/blocks/hero","assets/styles/main"], () => (__webpack_require__("./src/sass/blocks/accordion.scss")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
