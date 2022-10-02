@@ -52,7 +52,7 @@ img {
 
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1180px;
   margin: auto;
 }
 @media screen and (max-width: 1200px) {
@@ -70,6 +70,33 @@ img {
     max-width: none;
     padding: 0 15px;
   }
+}
+
+.logo {
+  color: #000000;
+}
+.logo__wrapper {
+  display: flex;
+  align-items: center;
+}
+.logo__link {
+  text-decoration: none;
+  color: inherit;
+}
+.logo__image {
+  margin-right: 8px;
+}
+.logo__text {
+  font-weight: 600;
+  line-height: 136%;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+}
+.header__logo {
+  margin-right: 94px;
 }
 
 /*# sourceMappingURL=main.css.map*/
