@@ -30,11 +30,13 @@
             <div class="header__nav-overlay">
                 <div class="header__nav-wrap">
                     <button class="header__nav-close"></button>
+                    <?php if(has_nav_menu('header_menu')): ?>
                     <nav class="header__nav">
                         <?php 
                         draw_menu_single_level('header_menu', 'header__nav-list', 'header__nav-item', 'header__nav-link');
                         ?>
                     </nav>
+                    <?php endif; ?>
                     <?php if(get_field('header_button_text', 'option') && get_field('header_button_link', 'option')): ?>
                     <a href="<?php the_field('header_button_link', 'option'); ?>" class="header__button button"><?php the_field('header_button_text', 'option'); ?></a>
                     <?php endif; ?>

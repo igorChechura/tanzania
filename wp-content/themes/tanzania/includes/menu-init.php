@@ -3,9 +3,10 @@
 // register menus
 add_action( 'after_setup_theme', function(){
 	register_nav_menus( [
-		'header_menu'      => 'Header menu',
-		'footer_left_menu' => 'Footer left menu',
-		'footer_right_menu' => 'Footer right menu'
+		'header_menu'        => 'Header menu',
+		'footer_left_menu'   => 'Footer left menu',
+		'footer_right_menu'  => 'Footer right menu',
+		'footer_bottom_menu' => 'Footer bottom menu'
 	] );
 } );
 
@@ -37,5 +38,17 @@ function draw_menu_single_level($menu_location = '', $ul_class = '', $li_class =
 
 		echo '</ul>';
 		
+	}
+}
+
+function get_menu_title($menu_location = '') {
+	$locations = get_nav_menu_locations();
+	
+	if( $locations && isset( $locations[ $menu_location ] ) ) {
+		$menu = wp_get_nav_menu_object($locations[$menu_location]);
+
+		return $menu->name;;
+	} else {
+		return false;
 	}
 }
