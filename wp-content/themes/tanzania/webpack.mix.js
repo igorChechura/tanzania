@@ -7,8 +7,7 @@ mix.js('src/js/main.js', 'assets/scripts/').options({
 });
 
 mix.sass('src/sass/main.scss', 'assets/styles/')
-    .sass('src/sass/blocks/hero.scss', 'assets/styles/blocks')
-    .sass('src/sass/blocks/accordion.scss', 'assets/styles/blocks')
+    .sass('template-parts/blocks/slider/slider.scss', 'template-parts/blocks/slider')
     .options({
     processCssUrls: false
 });
@@ -16,8 +15,8 @@ mix.sass('src/sass/main.scss', 'assets/styles/')
 mix.minify([
     'assets/scripts/main.js',
     'assets/styles/main.css',
-    'assets/styles/blocks/hero.css',
-    'assets/styles/blocks/accordion.css'
+    'template-parts/blocks/slider/slider.css',
+    'template-parts/blocks/slider/slider.js',
 ]);
 
 mix.sourceMaps(false, 'source-map');

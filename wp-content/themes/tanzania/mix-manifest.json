@@ -1,7 +1,6 @@
 {
     "/assets/scripts/main.js": "/assets/scripts/main.js",
-    "/assets/styles/blocks/accordion.css": "/assets/styles/blocks/accordion.css",
-    "/assets/styles/blocks/hero.css": "/assets/styles/blocks/hero.css",
+    "/template-parts/blocks/slider/slider.css": "/template-parts/blocks/slider/slider.css",
     "/assets/styles/main.css": "/assets/styles/main.css",
     "/assets/fonts/Inter-Bold.woff2": "/assets/fonts/Inter-Bold.woff2",
     "/assets/fonts/Inter-Medium.woff2": "/assets/fonts/Inter-Medium.woff2",
@@ -9,6 +8,6 @@
     "/assets/fonts/Inter-SemiBold.woff2": "/assets/fonts/Inter-SemiBold.woff2",
     "/assets/scripts/main.min.js": "/assets/scripts/main.min.js",
     "/assets/styles/main.min.css": "/assets/styles/main.min.css",
-    "/assets/styles/blocks/hero.min.css": "/assets/styles/blocks/hero.min.css",
-    "/assets/styles/blocks/accordion.min.css": "/assets/styles/blocks/accordion.min.css"
+    "/template-parts/blocks/slider/slider.min.css": "/template-parts/blocks/slider/slider.min.css",
+    "/template-parts/blocks/slider/slider.min.js": "/template-parts/blocks/slider/slider.min.js"
 }
