@@ -42,16 +42,6 @@
     $(document).ready(function () {
         $('.slider').each(function () {
             initializeBlock($(this));
-
-            // const progressLine = $(this).find('.progressbar__line');
-            // const progressCur = $(this).find('.progressbar__current');
-            // const progressAll = $(this).find('.progressbar__all');
-
-            // $(this).find('.slides').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
-            //     setProgress($(this), nextSlide, progressLine, progressCur, progressAll);
-            // });
-
-            // setProgress($(this).find('.slides'), 0, progressLine, progressCur, progressAll);
         });
     });
 

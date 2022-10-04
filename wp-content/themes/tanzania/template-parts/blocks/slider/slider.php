@@ -28,7 +28,7 @@ if( $is_preview ) {
 }
 
 ?>
-<div id="<?php echo esc_attr($id); ?>" class="<?php echo esc_attr($className); ?>">
+<section id="<?php echo esc_attr($id); ?>" class="<?php echo esc_attr($className); ?>">
     <?php if( have_rows('slides') ): ?>
 		<div class="slides">
 			<?php while( have_rows('slides') ): the_row(); 
@@ -71,4 +71,4 @@ if( $is_preview ) {
 	<?php else: ?>
 		<p>Please add some slides.</p>
 	<?php endif; ?>
-</div>
+    </section>
