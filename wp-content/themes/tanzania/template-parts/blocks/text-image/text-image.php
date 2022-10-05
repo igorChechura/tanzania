@@ -30,7 +30,10 @@ if( $is_preview ) {
 ?>
 <section id="<?php echo esc_attr($id); ?>" class="<?php echo esc_attr($className); ?>">
     <div class="container">
-        <div class="text-image__wrapper">
+        <?php 
+        $image_location = get_field('image_location');
+        ?>
+        <div class="text-image__wrapper text-image__wrapper--<?php echo esc_attr($image_location); ?>">
         <?php
         $image = get_field('image');
         if( !empty( $image ) ): ?>

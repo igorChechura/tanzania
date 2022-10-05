@@ -35,7 +35,7 @@ function my_register_blocks()
             'align'           => 'full',
             'enqueue_assets'     => function () {
                 wp_enqueue_style('block-accordion', get_template_directory_uri() . '/template-parts/blocks/accordion/accordion.min.css', array(), filemtime(get_stylesheet_directory() . '/template-parts/blocks/accordion/accordion.min.css'));
-                wp_enqueue_script('block-accordion', get_template_directory_uri() . '/template-parts/blocks/accordion/accordion.min.js', array(), filemtime(get_stylesheet_directory() . '/template-parts/blocks/accordion/accordion.min.js'), true);
+                wp_enqueue_script('block-accordion', get_template_directory_uri() . '/template-parts/blocks/accordion/accordion.min.js', array('jquery'), filemtime(get_stylesheet_directory() . '/template-parts/blocks/accordion/accordion.min.js'), true);
             },
         ));
         
