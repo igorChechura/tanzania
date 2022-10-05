@@ -1,5 +1,6 @@
 {
     "/assets/scripts/main.js": "/assets/scripts/main.js",
+    "/template-parts/blocks/text-image/text-image.css": "/template-parts/blocks/text-image/text-image.css",
     "/template-parts/blocks/accordion/accordion.css": "/template-parts/blocks/accordion/accordion.css",
     "/template-parts/blocks/slider/slider.css": "/template-parts/blocks/slider/slider.css",
     "/assets/styles/main.css": "/assets/styles/main.css",
@@ -12,5 +13,6 @@
     "/template-parts/blocks/slider/slider.min.css": "/template-parts/blocks/slider/slider.min.css",
     "/template-parts/blocks/slider/slider.min.js": "/template-parts/blocks/slider/slider.min.js",
     "/template-parts/blocks/accordion/accordion.min.css": "/template-parts/blocks/accordion/accordion.min.css",
-    "/template-parts/blocks/accordion/accordion.min.js": "/template-parts/blocks/accordion/accordion.min.js"
+    "/template-parts/blocks/accordion/accordion.min.js": "/template-parts/blocks/accordion/accordion.min.js",
+    "/template-parts/blocks/text-image/text-image.min.css": "/template-parts/blocks/text-image/text-image.min.css"
 }

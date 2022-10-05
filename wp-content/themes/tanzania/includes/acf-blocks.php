@@ -24,7 +24,7 @@ function my_register_blocks()
             },
         ));
         
-        // register a slider block.
+        // register a accordion block.
         acf_register_block_type(array(
             'name'              => 'accordion',
             'title'             => __('Accordion'),
@@ -36,6 +36,20 @@ function my_register_blocks()
             'enqueue_assets'     => function () {
                 wp_enqueue_style('block-accordion', get_template_directory_uri() . '/template-parts/blocks/accordion/accordion.min.css', array(), filemtime(get_stylesheet_directory() . '/template-parts/blocks/accordion/accordion.min.css'));
                 wp_enqueue_script('block-accordion', get_template_directory_uri() . '/template-parts/blocks/accordion/accordion.min.js', array(), filemtime(get_stylesheet_directory() . '/template-parts/blocks/accordion/accordion.min.js'), true);
+            },
+        ));
+        
+        // register a text-image block.
+        acf_register_block_type(array(
+            'name'              => 'text-image',
+            'title'             => __('Text + Image'),
+            'description'       => __('A custom text-image block.'),
+            'render_template'   => 'template-parts/blocks/text-image/text-image.php',
+            'category'          => 'formatting',
+            'icon'                 => 'analytics',
+            'align'           => 'full',
+            'enqueue_assets'     => function () {
+                wp_enqueue_style('block-text-image', get_template_directory_uri() . '/template-parts/blocks/text-image/text-image.min.css', array(), filemtime(get_stylesheet_directory() . '/template-parts/blocks/text-image/text-image.min.css'));
             },
         ));
     }
